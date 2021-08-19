@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "enchants-plus-plus",
+  "version": "${version}",
+  "name": "Enchants++",
+  "description": "Adds support for higher enchant levels in an anvil.",
+  "authors": [
+    "Elmartino4"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/Elmartino4/enchants-plus-plus"
+  },
+  "license": "MIT",
+  "icon": "assets/enchants-plus-plus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.Elmartino4.enchantsPlusPlus.EnchantsPlusPlus"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "enchants-plus-plus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6"
+  }
+}

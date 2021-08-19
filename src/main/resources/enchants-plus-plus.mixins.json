@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.github.Elmartino4.enchantsPlusPlus.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "AnvilHandlerMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
